@@ -5,7 +5,6 @@ segunda_nota = int(input("Indicar segunda nota "))
 ponderacion_primera_nota = int(input("Indicar la ponderacion de la primera nota "))
 ponderacion_segunda_nota = int(input("Indicar la ponderacion de la segunda nota "))
 
-
 promedio = (primera_nota + segunda_nota) /2
 print("El promedio es " + str(promedio))
 

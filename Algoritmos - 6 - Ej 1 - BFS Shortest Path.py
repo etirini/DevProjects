@@ -24,6 +24,7 @@ def search(name):
             else: 
                 search_queue += graph[person]
                 searched.append(person)
+                print(person)
     return False
 
 def person_is_seller(name):

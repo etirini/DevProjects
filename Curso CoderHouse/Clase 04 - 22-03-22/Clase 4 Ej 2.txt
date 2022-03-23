@@ -1,0 +1,25 @@
+
+nombre = input("Ingrese su nombre ")
+preferencia = input("Marvel o Capcom? (M/C) ")
+
+#IronMan Ciclope Thor Lobezno
+#Ryu Ken Megaman Cody
+
+if preferencia.upper() == 'M':
+    print("Tu grupo es el A")
+    personaje = input("Selecciona tu personaje favorito Ironman (I), Ciclope (C), Thor (T) o Lobezno (L)")
+    if personaje.upper() == "I":
+        print("Yo soy Ironman")
+    elif personaje.upper() == "C":
+        print("No veo bien")
+    elif personaje.upper() == "T":
+        print("Cachapaw")
+    elif personaje.upper() == "L":
+        print("Aguante Icardi")
+    else:
+        print("No Seleccionaste una opcion valida. Saliendo")
+elif preferencia.upper() == 'C':
+    print("Tu grupo es el B")
+else:
+    print("No elegiste una opcion valida. Saliendo")
+

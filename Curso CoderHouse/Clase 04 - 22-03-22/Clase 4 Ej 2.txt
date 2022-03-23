@@ -20,6 +20,18 @@ if preferencia.upper() == 'M':
         print("No Seleccionaste una opcion valida. Saliendo")
 elif preferencia.upper() == 'C':
     print("Tu grupo es el B")
+    personaje = input(
+        "Selecciona tu personaje favorito Ryu (R), Ken (E), Megaman (M), Cody (O)")
+    if personaje.upper() == "R":
+        print("Haduuuken")
+    elif personaje.upper() == "E":
+        print("Que no soy Ryu")
+    elif personaje.upper() == "M":
+        print("Cargando blaster")
+    elif personaje.upper() == "O":
+        print("Quien es cody?")
+    else:
+        print("No Seleccionaste una opcion valida. Saliendo")
 else:
     print("No elegiste una opcion valida. Saliendo")
 

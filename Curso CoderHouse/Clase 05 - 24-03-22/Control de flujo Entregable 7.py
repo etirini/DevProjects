@@ -1,7 +1,6 @@
 #El numero de ej. es 6 cuando deberia ser 7
 #Me parece que esta solucion es re cabeza, pero es la unica que se me ocurre. 
 
-
 lista_1 = ["h", 'o', 'l', 'a', ' ', 'm', 'u', 'n', 'd', 'o']
 lista_2 = ["h", 'o', 'l', 'a', ' ', 'l', 'u', 'n', 'a']
 lista_3 = []

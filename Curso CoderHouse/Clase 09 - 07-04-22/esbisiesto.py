@@ -1,7 +1,3 @@
-
-#Para calcular un anio bisiesto se divide el anio entre 100 y entre 400. 
-#Si el resultado de % de ambos es 0, entonces es bisiesto
-
 #Creamos dos funciones, la primera saluda al usuario y pide el anio. 
 #La segunda hace el calculo y retorna el resultado
 
@@ -11,10 +7,12 @@ def saludo():
     calcular(ingreso)
     print("el anio ", calcular(ingreso))
 
+
 def calcular(ingreso):
-    if (ingreso % 400 == 0) and (ingreso % 100 == 0):
+    if (ingreso % 400 == 0) or (ingreso % 4 == 0) and (ingreso % 100 != 0):
         return "es bisiesto"
-    else: 
+    else:
         return "no es bisiesto"
+
 
 saludo()

@@ -3,7 +3,7 @@ def saludo(*args):
     if len(args) == 1:
         segundoAHoras(*args)
     elif len(args) == 3:
-        horasASegundos(args)
+        horasASegundos(*args)
     else:
         print("La cantidad de valores no se puede procesar")
 

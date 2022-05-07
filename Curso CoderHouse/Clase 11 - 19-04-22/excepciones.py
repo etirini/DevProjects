@@ -17,7 +17,6 @@ def divi(a,b):
         print("Saliendo")
 
 divi(10,0)
-"""
 
 def juntaprome(dias):
     try:
@@ -44,4 +43,15 @@ def calcavgtemp():
 
 juntaprome(3)
 
+"""
+a = 1
+try:
+    if int(a) == True:
+        print("int")
+    else: 
+        print("nop")
+except:
+    print("Algo salio mal")
+
+print(type (a) == int)
 

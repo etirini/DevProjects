@@ -12,6 +12,9 @@ class Empleado:
         self.email = self.nombre + self.apellido + '@' + cia + '.com'
         self.sueldo = sueldo
 
+    def fullname(self):
+        return '{} {}'.format(self.nombre, self.apellido)
+
 class Developer(Empleado):
     def __init__(self, nombre, apellido, cia, sueldo, prog_lang): #Developer
         super().__init__(nombre, apellido, cia, sueldo ) #Trae de empleado
@@ -23,25 +26,24 @@ class Developer(Empleado):
         print(self.sueldo)
 
 class Manager(Empleado):
-    def __init__(self, nombre, apellido, cia, sueldo, estilo_mgmt, empleados=None):
+    def __init__(self, nombre, apellido, cia, sueldo, estilo_mgmt, a_cargo=None):
         super().__init__(nombre, apellido, cia, sueldo)
         self.estilo_mgmt = estilo_mgmt
-        if self.empleados is None:
-            self.empleados = []
+       
+        if self.a_cargo is None:
+            self.a_cargo = []
         else:
-            self.empleados = empleados
-        
+            self.a_cargo = a_cargo
+
+    def add_acargo(self, emp):
+        if emp not in self.a_cargo:
+            self.a_cargo.append(emp)
+
 
 
 #empleado1 = Empleado('Juan', 'Gomez', 'tuvieja')
 #print(empleado1.nombre, empleado1.apellido, empleado1.cia, empleado1.email)
 
 dev1 = Developer('Juan', 'Gomez', 'tuvieja', 5000 ,'python')
-print(dev1.nombre, dev1.apellido, dev1.cia, dev1.email, dev1.sueldo, dev1.prog_lang )
-
-dev1.dar_aumento()
-print(dev1.nombre, dev1.apellido, dev1.cia,
-      dev1.email, dev1.sueldo, dev1.prog_lang)
-
-
+mgr1 = Manager('Esteban', 'Tirini', "PHM", 85000, 'Service Management',['aaaa'])
 

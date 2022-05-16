@@ -1,0 +1,24 @@
+renglon 1
+renglon 2
+otro renglon
+mas renglones
+X2
+renglon 1
+renglon 2
+otro renglon
+mas renglones
+X3
+renglon 1
+renglon 2
+otro renglon
+mas renglones
+X4
+renglon 1
+renglon 2
+otro renglon
+mas renglones
+X5
+renglon 1
+renglon 2
+otro renglon
+mas renglones

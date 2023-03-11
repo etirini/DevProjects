@@ -1,0 +1,6 @@
+En python aprendi a crear variables
+En python aprendi a modificar listas
+En python aprendi a ejecutar funciones
+En python aprendi a escribir clases
+En python aprendi a usar loops
+En python aprendi a leer diccionarios

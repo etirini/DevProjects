@@ -54,7 +54,7 @@ ROOT_URLCONF = 'proyecto_uno.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["C:/Users/etiri/Documents/Python/Curso CoderHouse/Clase 17 - 12-05-22/proyecto_uno/proyecto_uno/plantillas/"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

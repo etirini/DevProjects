@@ -7,6 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Bienvenidos a mi pagina</h1>
+    <h1>Bienvenido a mi pagina {{nombre}}</h1>
+    <h2>{{notas}}</h2>
+        
+    {% for n in notas %}
+
+        {% if n > 4%}           
+            <p>Aprobado con {{n}}</p>
+        {% else %}
+            <p>A Marzo con {{n}}</p>
+        {% endif %}
+    
+    {% endfor %}
+        <p></p>
 </body>
 </html>

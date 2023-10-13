@@ -17,7 +17,7 @@ def lun_val():
         print(user_value_digits)
 
 def mul_number(digit):
-
+    break
 
 
 def decomp_number(digit):
